@@ -115,7 +115,7 @@
 }
 
 #recording-table .edit_hover_class {
-  word-break: break-word;
+  word-break: break-all;
   white-space: normal;
 }
 
@@ -132,15 +132,4 @@
   white-space: nowrap;
   text-overflow: ellipsis;
   padding-right: 75px;
-}
-
-#clear-room-search {
-  z-index: 9;
-  position: absolute;
-  right: 15px;
-  top: 8px;
-
-  &:hover {
-    cursor: pointer;
-  }
 }
